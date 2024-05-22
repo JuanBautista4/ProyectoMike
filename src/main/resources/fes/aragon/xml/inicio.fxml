@@ -6,7 +6,7 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.BorderPane?>
 
-<BorderPane fx:id="btnPrincipal" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="542.0" prefWidth="1104.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fes.aragon.controller.InicioController">
+<BorderPane fx:id="btnPrincipal" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="542.0" prefWidth="1104.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fes.aragon.controller.InicioController">
    <left>
       <ToolBar orientation="VERTICAL" prefHeight="400.0" prefWidth="204.0" style="-fx-background-color: #022448;" BorderPane.alignment="CENTER">
         <items>
@@ -19,6 +19,7 @@
             <Button fx:id="btnRacionales" mnemonicParsing="false" onAction="#abrirRacionales" prefHeight="32.0" prefWidth="198.0" text="Racionales" />
             <Button fx:id="btnUsuarios" mnemonicParsing="false" onAction="#accionAbrirUsuarios" prefHeight="34.0" prefWidth="198.0" text="Usuarios" />
             <Button fx:id="btnJuego" mnemonicParsing="false" onAction="#accionAbrirJuego" prefHeight="24.0" prefWidth="197.0" text="Juego" />
+            <Button fx:id="btnLevel" mnemonicParsing="false" onAction="#accionAbrirLevel" prefHeight="32.0" prefWidth="196.0" text="LevelDevil" />
         </items>
       </ToolBar>
    </left>

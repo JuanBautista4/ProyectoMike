@@ -15,6 +15,8 @@ import java.io.IOException;
 
 public class InicioController {
     @FXML
+    private Button btnLevel;
+    @FXML
     private Button btnUsuarios;
 
     @FXML
@@ -28,6 +30,8 @@ public class InicioController {
     @FXML
     private Button btnJuego;
 
+    @FXML
+    void accionAbrirLevel(ActionEvent event) {ventana("/fes/aragon/xml/inicioLevel.fxml");}
     @FXML
     void abrirArchivo(ActionEvent event) {
         ventana("/fes/aragon/xml/archivo.fxml");
