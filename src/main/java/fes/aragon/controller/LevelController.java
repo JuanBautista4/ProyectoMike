@@ -13,4 +13,7 @@ public class LevelController {
     public void setEscena(Scene escena) {
         this.escena = escena;
     }
+
+
+
 }
