@@ -12,6 +12,6 @@
             <Image url="@../imagen/Pantallainicio.png" />
          </image>
       </ImageView>
-      <Button fx:id="btnAbrirLevel" layoutX="273.0" layoutY="171.0" mnemonicParsing="false" onAction="#accionAbrirLevelDev" prefHeight="50.0" prefWidth="137.0" text="iniciar" />
+      <Button fx:id="btnAbrirLevel" layoutX="-1.0" layoutY="-1.0" mnemonicParsing="false" onAction="#accionAbrirLevelDev" opacity="0.0" prefHeight="424.0" prefWidth="682.0" text="iniciar" />
    </children>
 </fx:root>

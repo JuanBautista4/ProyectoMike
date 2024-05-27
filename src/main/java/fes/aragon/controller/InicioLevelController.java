@@ -23,7 +23,7 @@ public class InicioLevelController {
         @FXML
         void accionAbrirLevelDev(ActionEvent event) {
                 try {
-                        FXMLLoader modificar= new FXMLLoader(getClass().getResource("/fes/aragon/xml/level.fxml"));
+                        FXMLLoader modificar= new FXMLLoader(getClass().getResource("/fes/aragon/xml/juego.fxml"));
                         Parent parent=(Parent)modificar.load();
                         Scene scene=new Scene(parent);
                         Stage stage=new Stage();
