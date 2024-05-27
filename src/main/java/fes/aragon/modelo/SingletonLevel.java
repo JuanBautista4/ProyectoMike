@@ -9,6 +9,7 @@ public class SingletonLevel {
 
     public void iniciar(){
         fondo=new FondoLevel(0,0,getClass().getResource("/fes/aragon/imagen/fondo2.jpg").getFile(),0);
+        elementos.add(fondo);
 
     }
 }
