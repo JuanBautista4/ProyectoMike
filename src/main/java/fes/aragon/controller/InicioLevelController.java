@@ -23,15 +23,15 @@ public class InicioLevelController {
         @FXML
         void accionAbrirLevelDev(ActionEvent event) {
                 try {
-                        FXMLLoader modificar= new FXMLLoader(getClass().getResource("/fes/aragon/xml/juego.fxml"));
+                        FXMLLoader modificar= new FXMLLoader(getClass().getResource("/fes/aragon/xml/level.fxml"));
                         Parent parent=(Parent)modificar.load();
                         Scene scene=new Scene(parent);
                         Stage stage=new Stage();
                         stage.setScene(scene);
                         stage.initStyle(StageStyle.UTILITY);
                         stage.initModality(Modality.APPLICATION_MODAL);
-                        ((JuegoController)modificar.getController()).setEscena(scene);
-                        ((JuegoController)modificar.getController()).iniciar();
+                        ((LevelController)modificar.getController()).setEscena(scene);
+                        ((LevelController)modificar.getController()).iniciar();
                         stage.show();
                         stage.requestFocus();
 
