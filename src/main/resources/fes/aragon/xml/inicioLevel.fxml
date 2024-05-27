@@ -7,11 +7,11 @@
 
 <fx:root maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="424.0" prefWidth="682.0" type="Pane" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fes.aragon.controller.InicioLevelController">
    <children>
-      <Button fx:id="btnAbrirLevel" disable="true" mnemonicParsing="false" onAction="#accionAbrirLevelDev" prefHeight="424.0" prefWidth="682.0" />
       <ImageView fitHeight="424.0" fitWidth="682.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../imagen/Pantallainicio.png" />
          </image>
       </ImageView>
+      <Button fx:id="btnAbrirLevel" layoutX="273.0" layoutY="171.0" mnemonicParsing="false" onAction="#accionAbrirLevelDev" prefHeight="50.0" prefWidth="137.0" text="iniciar" />
    </children>
 </fx:root>
