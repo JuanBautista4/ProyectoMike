@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.Pane?>
-
 
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="424.0" prefWidth="682.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fes.aragon.controller.LevelController">
    <children>
       <Canvas height="424.0" width="682.0" />
+      <ImageView fitHeight="424.0" fitWidth="682.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagen/N1SinHoyos.png" />
+         </image>
+      </ImageView>
    </children>
 </Pane>

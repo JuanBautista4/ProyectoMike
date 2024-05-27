@@ -10,7 +10,7 @@
       <Button fx:id="btnAbrirLevel" disable="true" mnemonicParsing="false" onAction="#accionAbrirLevelDev" prefHeight="424.0" prefWidth="682.0" />
       <ImageView fitHeight="424.0" fitWidth="682.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../imagen/Pantallainicio.png"/>
+            <Image url="@../imagen/Pantallainicio.png" />
          </image>
       </ImageView>
    </children>
